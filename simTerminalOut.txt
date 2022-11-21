@@ -1,0 +1,133 @@
+Script started on 2022-11-21 11:11:23+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="167" LINES="22"]
+]0;liu_fl@HEL-Linux: ~/Downloads/photon-master/python_codes[01;32mliu_fl@HEL-Linux[00m:[01;34m~/Downloads/photon-master/python_codes[00m$ ./sw[Kample_run_script.sh n[Kbos
+image directory /home/liu_fl/Downloads/photon-master/sample-data/bos/images
+filename /home/liu_fl/Downloads/photon-master/sample-data/bos/parameters/test-parameters.mat
+Density Gradient Enable 1
+/home/liu_fl/Downloads/photon-master/python_codes/tifffile.py:264: UserWarning: failed to import the optional _tifffile C extension module.
+Loading of some compressed images will be very slow.
+Tifffile.c can be obtained at http://www.lfd.uci.edu/~gohlke/
+  warnings.warn(
+/home/liu_fl/Downloads/photon-master/cuda_codes/lib:/home/liu_fl/Downloads/photon-master/cuda_codes/lib64
+number of parameter files to run in one simulation 1
+Number of cases: 1
+
+
+
+
+
+Running case 1 simulation . . . 
+parameter_filename_read: ../sample-data/bos/parameters/test-parameters.mat
+n: 477.1905, t: 0.43, R: 100000000.00
+image directory  /home/liu_fl/Downloads/photon-master/sample-data/bos/images
+Simulating bos_pattern images . . . 
+rotation matrix [[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+inverse rotation matrix [[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+/home/liu_fl/Downloads/photon-master/cuda_codes/lib:/home/liu_fl/Downloads/photon-master/cuda_codes/lib64
+number of particles: 120000
+generating random numbers for light ray intersection points...done
+num_particles: 120000, source_point_number: 10000, lightray_number_per_particle: 500, num_rays: 5000000
+grid: 2, 10000
+1 out of 12
+beginning ray tracing .....done.
+2 out of 12
+beginning ray tracing .....done.
+3 out of 12
+beginning ray tracing .....done.
+4 out of 12
+beginning ray tracing .....done.
+5 out of 12
+beginning ray tracing .....done.
+6 out of 12
+beginning ray tracing .....done.
+7 out of 12
+beginning ray tracing .....done.
+8 out of 12
+beginning ray tracing .....done.
+9 out of 12
+beginning ray tracing .....done.
+10 out of 12
+beginning ray tracing .....done.
+11 out of 12
+beginning ray tracing .....done.
+12 out of 12
+beginning ray tracing .....done.
+time_spent : 0.149573 minutes
+freeing memory ......done
+exiting cuda code
+done ray tracing
+rescaling intensity
+max intensity:  65535
+total intensity: 931750637
+rotation matrix [[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+inverse rotation matrix [[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+/home/liu_fl/Downloads/photon-master/cuda_codes/lib:/home/liu_fl/Downloads/photon-master/cuda_codes/lib64
+number of particles: 120000
+generating random numbers for light ray intersection points...done
+file: /home/liu_fl/Downloads/photon-master/sample-data/bos/sample-density.nrrd
+loading file /home/liu_fl/Downloads/photon-master/sample-data/bos/sample-density.nrrd : 
+******************** Co-ordinate System Info ******************************
+xmin: -16365.7, xmax: 16365.7, N_x: 64, del_x: 519.545900
+ymin: -16365.7, ymax: 16365.7, N_y: 64, del_y: 519.545900
+zmin: -16365.700000, zmax: 16362.800000, N_z: 64, del_z: 519.500000
+ size: 64.000000 64.000000 64.000000
+  ...done
+Min: 0.001393, Max: 0.001520 
+min bound: -16365.713867, -16365.713867, -16365.700195
+max bound: 16365.677734, 16365.677734, 16362.799805
+grid_spacing: 519.545898, 519.545898, 519.500000
+setting up renderer
+setData(87842400, 64, 64, 64)
+grid_x: 519.545898, grid_y: 519.545898, grid_z: 519.500000
+Minimum Refractive Index: 0.001393
+min step_size: 519.500000
+max step_size: 519.545898
+ray tracing algorithm: rk4
+Setting up data texture
+interpolation scheme: linear
+num_particles: 120000, source_point_number: 10000, lightray_number_per_particle: 500, num_rays: 5000000
+grid: 2, 10000
+1 out of 12
+beginning ray tracing .....done.
+2 out of 12
+beginning ray tracing .....done.
+3 out of 12
+beginning ray tracing .....done.
+4 out of 12
+beginning ray tracing .....done.
+5 out of 12
+beginning ray tracing .....done.
+6 out of 12
+beginning ray tracing .....done.
+7 out of 12
+beginning ray tracing .....done.
+8 out of 12
+beginning ray tracing .....done.
+9 out of 12
+beginning ray tracing .....done.
+10 out of 12
+beginning ray tracing .....done.
+11 out of 12
+beginning ray tracing .....done.
+12 out of 12
+beginning ray tracing .....done.
+time_spent : 0.189025 minutes
+freeing memory ......done
+exiting cuda code
+done ray tracing
+rescaling intensity
+max intensity:  65535
+total intensity: 932505735
+image shape: 1024, 1024
+TOTAL time taken (minutes):  0.3445249239603678
+]0;liu_fl@HEL-Linux: ~/Downloads/photon-master/python_codes[01;32mliu_fl@HEL-Linux[00m:[01;34m~/Downloads/photon-master/python_codes[00m$ exit
+exit
+
+Script done on 2022-11-21 11:12:04+01:00 [COMMAND_EXIT_CODE="0"]
